@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
         <meta charset="utf-8" />
-        <title>ZiApi</title>
+        <title>ZiApi: How to install</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ZiApi Atom Feed" />
 </head>
@@ -11,16 +11,42 @@
         <header id="banner" class="body">
                 <h1><a href="/">ZiApi </a></h1>
                 <nav><ul>
-                    <li><a href="/category/misc.html">misc</a></li>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
-<h1>Archives for ZiApi</h1>
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/ziapi-how-to-install.html" rel="bookmark"
+           title="Permalink to ZiApi: How to install">ZiApi: How to install</a></h1>
+    </header>
 
-<dl>
-    <dt>ven. 25 janvier 2019</dt>
-    <dd><a href="/ziapi-how-to-install.html">ZiApi: How to install</a></dd>
-</dl>
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-01-25T18:34:00+01:00">
+                Published: ven. 25 janvier 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/ziapi.html">ZiApi</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->      <h1>How to install ZiApi?</h1>
+<p>As ZiApi is <strong><em>HPP only</em></strong>, there is no need to install anything.<br>
+Simply download the sources from github with the following command: <br></p>
+<div class="highlight"><pre><span></span>git clone https://github.com/KillianG/ZiApi
+</pre></div>
+
+
+<p>And now, your only job now is to <strong><em>include ZiApi header files.</em></strong><br></p>
+<p>With CMake:</p>
+<div class="highlight"><pre><span></span>target_include_directory([EXECUTABLE_NAME] PRIVATE ZiApi)
+</pre></div>
+    </div><!-- /.entry-content -->
+
+  </article>
 </section>
         <section id="extras" class="body">
                 <div class="social">
