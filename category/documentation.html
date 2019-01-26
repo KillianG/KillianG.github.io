@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
         <meta charset="utf-8" />
-        <title>ZiApi - Tutorial</title>
+        <title>ZiApi - Documentation</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ZiApi Atom Feed" />
 
@@ -18,33 +18,61 @@
         <header id="banner" class="body">
                 <h1><a href="/">ZiApi </a></h1>
                 <nav><ul>
-                    <li class="active"><a href="/category/tutorial.html">Tutorial</a></li>
+                    <li class="active"><a href="/category/documentation.html">Documentation</a></li>
                 </ul>
                 </nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/ziapi-how-to-install.html">ZiApi: How to install</a></h1>
+                    <h1 class="entry-title"><a href="/ziapi-comment-linstaller.html">ZiApi: Comment l'installer</a></h1>
 <footer class="post-info">
         <span>ven. 25 janvier 2019</span>
 
 </footer><!-- /.post-info --><h1>How to install ZiApi?</h1>
-<p>As ZiApi is <strong><em>HPP only</em></strong>, there is no need to install anything.<br>
-Simply download the sources from github with the following command: <br></p>
+<p>Comme ZiApi utilise uniquement des <strong><em>fichiers HPP</em></strong>, vous n'avez pas besoin d'installer quoique ce soit.<br>
+Il vous suffit de télécharger les sources sur github: <br></p>
 <div class="highlight"><pre><span></span>git clone https://github.com/KillianG/ZiApi
 </pre></div>
 
 
-<p>And now, your only job now is to <strong><em>include ZiApi header files.</em></strong><br></p>
-<p>With CMake:</p>
+<p>Un fois que vous avez fait ça, il vous suffit d'include les fichiers .hpp dans vos class et c'est bon.<br></p>
+<p>Avec CMake:</p>
 <div class="highlight"><pre><span></span>target_include_directory([EXECUTABLE_NAME] PRIVATE ZiApi)
+</pre></div>
+
+
+<p>Avec G++:</p>
+<div class="highlight"><pre><span></span>g++ [sources] -iquote ./ZiApi
 </pre></div>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/zilogger-comment-lutiliser.html" rel="bookmark"
+                           title="Permalink to ZiLogger: Comment l'utiliser ?">ZiLogger: Comment l'utiliser ?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>ven. 25 janvier 2019</span>
+
+</footer><!-- /.post-info -->                <h1>ZiLogger</h1>
+<h2>Fonctionnement:</h2>
+<p>Afin de faciliter le débug de vos ZiA, nous avons mis en place un système de log.<br>
+Notre logger fonctionne à l'aide de sévérité et de type d'erreur.<br></p>
+<h3>Sévérité:</h3>
+<p>La sévérité définie si votre log doit être afficher ou non. C'est un paramètre que vous choisissez au début …</p>
+                <a class="readmore" href="/zilogger-comment-lutiliser.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
-            </ol><!-- /#posts-list -->
             </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="social">
