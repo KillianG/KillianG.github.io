@@ -1235,7 +1235,7 @@
       <Scope>ZiApi::Module</Scope>
     </TokenIdentifier>
     <Path>classZiApi_1_1Module.html</Path>
-    <Anchor>a36a4a400a44f883262123e7a0ec2778f</Anchor>
+    <Anchor>a5c115c8bb89b331375d6a94c3feb1177</Anchor>
     <Abstract>The module compute the request and response (it&apos;s up to you)</Abstract>
     <DeclaredIn>Module.hpp</DeclaredIn>
   </Token>
@@ -1249,6 +1249,50 @@
     <Path>classZiApi_1_1Module.html</Path>
     <Anchor>a2b53b4057d16cabf14027f5fe777a147</Anchor>
     <Abstract>The module&apos;s name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OK</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ZiApi::Module</Scope>
+    </TokenIdentifier>
+    <Path>classZiApi_1_1Module.html</Path>
+    <Anchor>ab0b3f95b87170bbfd0750b72125155c4ae0aa021e21dddbd6d8cecec71e9cf564</Anchor>
+    <Abstract>The handle function is ok the process can continue.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>STOP</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ZiApi::Module</Scope>
+    </TokenIdentifier>
+    <Path>classZiApi_1_1Module.html</Path>
+    <Anchor>ab0b3f95b87170bbfd0750b72125155c4a615a46af313786fc4e349f34118be111</Anchor>
+    <Abstract>The process has to stop due to needs of a module.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ERROR</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ZiApi::Module</Scope>
+    </TokenIdentifier>
+    <Path>classZiApi_1_1Module.html</Path>
+    <Anchor>ab0b3f95b87170bbfd0750b72125155c4abb1ca97ec761fc37101737ba0aa2e7c5</Anchor>
+    <Abstract>There was an error during the module handle function.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FATAL</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ZiApi::Module</Scope>
+    </TokenIdentifier>
+    <Path>classZiApi_1_1Module.html</Path>
+    <Anchor>ab0b3f95b87170bbfd0750b72125155c4a19da7170bea36556dde582519795f3fc</Anchor>
+    <Abstract>The process has to stop due to a fatal error in the handle function.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1305,7 +1349,7 @@
       <Scope>ZiApi::ModuleManager</Scope>
     </TokenIdentifier>
     <Path>classZiApi_1_1ModuleManager.html</Path>
-    <Anchor>a17ad1e83dc44dc40ba8a1dc07de29063</Anchor>
+    <Anchor>a704c59ac3cab73a872a16dda52108662</Anchor>
     <Abstract>Calls all modules&apos;s handle function.</Abstract>
     <DeclaredIn>ModuleManager.hpp</DeclaredIn>
   </Token>

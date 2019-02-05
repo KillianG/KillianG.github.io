@@ -543,6 +543,33 @@
               <Path>classZiApi_1_1Module.html</Path>
               <Subnodes>
                <Node>
+                <Name>ModuleStatus</Name>
+                <Path>classZiApi_1_1Module.html</Path>
+                <Anchor>ab0b3f95b87170bbfd0750b72125155c4</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>OK</Name>
+                  <Path>classZiApi_1_1Module.html</Path>
+                  <Anchor>ab0b3f95b87170bbfd0750b72125155c4ae0aa021e21dddbd6d8cecec71e9cf564</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>STOP</Name>
+                  <Path>classZiApi_1_1Module.html</Path>
+                  <Anchor>ab0b3f95b87170bbfd0750b72125155c4a615a46af313786fc4e349f34118be111</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ERROR</Name>
+                  <Path>classZiApi_1_1Module.html</Path>
+                  <Anchor>ab0b3f95b87170bbfd0750b72125155c4abb1ca97ec761fc37101737ba0aa2e7c5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FATAL</Name>
+                  <Path>classZiApi_1_1Module.html</Path>
+                  <Anchor>ab0b3f95b87170bbfd0750b72125155c4a19da7170bea36556dde582519795f3fc</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>~Module</Name>
                 <Path>classZiApi_1_1Module.html</Path>
                 <Anchor>a56e2e19858dd0579e1fa04f3d1628406</Anchor>
@@ -555,7 +582,7 @@
                <Node>
                 <Name>handle</Name>
                 <Path>classZiApi_1_1Module.html</Path>
-                <Anchor>a36a4a400a44f883262123e7a0ec2778f</Anchor>
+                <Anchor>a5c115c8bb89b331375d6a94c3feb1177</Anchor>
                </Node>
                <Node>
                 <Name>_name</Name>
@@ -601,7 +628,7 @@
                <Node>
                 <Name>runPipeline</Name>
                 <Path>classZiApi_1_1ModuleManager.html</Path>
-                <Anchor>a17ad1e83dc44dc40ba8a1dc07de29063</Anchor>
+                <Anchor>a704c59ac3cab73a872a16dda52108662</Anchor>
                </Node>
                <Node>
                 <Name>_pipeline</Name>
