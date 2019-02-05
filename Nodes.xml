@@ -125,6 +125,11 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>~Request</Name>
+                <Path>classHttp_1_1Request.html</Path>
+                <Anchor>a6afa8e75f6397eb58253c1289cf10ccd</Anchor>
+               </Node>
+               <Node>
                 <Name>setUri</Name>
                 <Path>classHttp_1_1Request.html</Path>
                 <Anchor>a45955974223ac5126b9ffb88617ec527</Anchor>
@@ -378,6 +383,11 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>~Response</Name>
+                <Path>classHttp_1_1Response.html</Path>
+                <Anchor>a1de928223874448e186f242a61eac8ea</Anchor>
+               </Node>
+               <Node>
                 <Name>setStatusCode</Name>
                 <Path>classHttp_1_1Response.html</Path>
                 <Anchor>aba798a6f5de153ef50e2c5a37acbcf4d</Anchor>
@@ -420,6 +430,11 @@
               <Path>classZiApi_1_1Config.html</Path>
               <Subnodes>
                <Node>
+                <Name>~Config</Name>
+                <Path>classZiApi_1_1Config.html</Path>
+                <Anchor>a14965b0db9884e5dd5733bab4234d2a5</Anchor>
+               </Node>
+               <Node>
                 <Name>loadConfig</Name>
                 <Path>classZiApi_1_1Config.html</Path>
                 <Anchor>adea7c918bc9802e935a76bc525d5c898</Anchor>
@@ -444,6 +459,11 @@
                 <Name>Core</Name>
                 <Path>classZiApi_1_1Core.html</Path>
                 <Anchor>af3cd8eba1b1d05633383da50539564ba</Anchor>
+               </Node>
+               <Node>
+                <Name>~Core</Name>
+                <Path>classZiApi_1_1Core.html</Path>
+                <Anchor>a6f7df1f81355f34a12e7467d644cc86d</Anchor>
                </Node>
                <Node>
                 <Name>run</Name>
@@ -497,6 +517,11 @@
                 <Anchor>aa05c96baba965d0ad1cd54c7878f4450</Anchor>
                </Node>
                <Node>
+                <Name>~FieldValue</Name>
+                <Path>classZiApi_1_1FieldValue.html</Path>
+                <Anchor>a25fcb90e77c4cc64aecb15b8546470b2</Anchor>
+               </Node>
+               <Node>
                 <Name>getValue</Name>
                 <Path>classZiApi_1_1FieldValue.html</Path>
                 <Anchor>abfc23c5c8eca45110475c291ce4fcd6a</Anchor>
@@ -518,6 +543,11 @@
               <Path>classZiApi_1_1Module.html</Path>
               <Subnodes>
                <Node>
+                <Name>~Module</Name>
+                <Path>classZiApi_1_1Module.html</Path>
+                <Anchor>a56e2e19858dd0579e1fa04f3d1628406</Anchor>
+               </Node>
+               <Node>
                 <Name>getName</Name>
                 <Path>classZiApi_1_1Module.html</Path>
                 <Anchor>a57b48f9d16a42034e2aa172df911e371</Anchor>
@@ -538,6 +568,11 @@
               <Name>ModuleManager</Name>
               <Path>classZiApi_1_1ModuleManager.html</Path>
               <Subnodes>
+               <Node>
+                <Name>~ModuleManager</Name>
+                <Path>classZiApi_1_1ModuleManager.html</Path>
+                <Anchor>a50fc8250b29e6ee41a1f7dc291913760</Anchor>
+               </Node>
                <Node>
                 <Name>load</Name>
                 <Path>classZiApi_1_1ModuleManager.html</Path>
@@ -584,6 +619,11 @@
               <Name>Network</Name>
               <Path>classZiApi_1_1Network.html</Path>
               <Subnodes>
+               <Node>
+                <Name>~Network</Name>
+                <Path>classZiApi_1_1Network.html</Path>
+                <Anchor>af560ac6eaf3553e36663a6aac30bd2b1</Anchor>
+               </Node>
                <Node>
                 <Name>run</Name>
                 <Path>classZiApi_1_1Network.html</Path>
