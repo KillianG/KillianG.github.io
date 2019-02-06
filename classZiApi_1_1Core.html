@@ -90,35 +90,35 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af3cd8eba1b1d05633383da50539564ba"><td class="memItemLeft" align="right" valign="top"><a id="af3cd8eba1b1d05633383da50539564ba"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Core</b> (std::shared_ptr&lt; <a class="el" href="classZiApi_1_1Config.html">Config</a> &gt; &amp;&amp;config, std::shared_ptr&lt; <a class="el" href="classZiApi_1_1Network.html">Network</a> &gt; &amp;&amp;network, std::shared_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ModuleManager</a> &gt; &amp;&amp;moduleMgr)</td></tr>
-<tr class="separator:af3cd8eba1b1d05633383da50539564ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a5f54e5cd79f307db721e19328bdfe"><td class="memItemLeft" align="right" valign="top"><a id="aa7a5f54e5cd79f307db721e19328bdfe"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Core</b> (std::unique_ptr&lt; <a class="el" href="classZiApi_1_1Config.html">Config</a> &gt; &amp;&amp;config, std::unique_ptr&lt; <a class="el" href="classZiApi_1_1Network.html">Network</a> &gt; &amp;&amp;network, std::unique_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ModuleManager</a> &gt; &amp;&amp;moduleMgr)</td></tr>
+<tr class="separator:aa7a5f54e5cd79f307db721e19328bdfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa47f4a4077e0669330daf82538b2240"><td class="memItemLeft" align="right" valign="top"><a id="afa47f4a4077e0669330daf82538b2240"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (int ac, char **av)=0</td></tr>
 <tr class="separator:afa47f4a4077e0669330daf82538b2240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a294afe7eef866644bb80c933a9521cb2"><td class="memItemLeft" align="right" valign="top"><a id="a294afe7eef866644bb80c933a9521cb2"></a>
-virtual const std::shared_ptr&lt; <a class="el" href="classZiApi_1_1Config.html">Config</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getConfig</b> () const =0</td></tr>
-<tr class="separator:a294afe7eef866644bb80c933a9521cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac31eb1b93966ccc7f0261f493e2b111f"><td class="memItemLeft" align="right" valign="top"><a id="ac31eb1b93966ccc7f0261f493e2b111f"></a>
-virtual std::shared_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ModuleManager</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getModuleMgr</b> ()=0</td></tr>
-<tr class="separator:ac31eb1b93966ccc7f0261f493e2b111f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a413a22c6b6db34ae2d92bf780578938c"><td class="memItemLeft" align="right" valign="top"><a id="a413a22c6b6db34ae2d92bf780578938c"></a>
+virtual const std::unique_ptr&lt; <a class="el" href="classZiApi_1_1Config.html">Config</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getConfig</b> () const =0</td></tr>
+<tr class="separator:a413a22c6b6db34ae2d92bf780578938c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902b29075c127a656d27505ff9c58cb6"><td class="memItemLeft" align="right" valign="top"><a id="a902b29075c127a656d27505ff9c58cb6"></a>
+virtual std::unique_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ModuleManager</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getModuleMgr</b> ()=0</td></tr>
+<tr class="separator:a902b29075c127a656d27505ff9c58cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a70b3267e291d675435d3f8ef1fcb5785"><td class="memItemLeft" align="right" valign="top"><a id="a70b3267e291d675435d3f8ef1fcb5785"></a>
-std::shared_ptr&lt; <a class="el" href="classZiApi_1_1Config.html">ZiApi::Config</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_config</b></td></tr>
-<tr class="separator:a70b3267e291d675435d3f8ef1fcb5785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebe00cf2e04b04297540d4ec643c9c5b"><td class="memItemLeft" align="right" valign="top"><a id="aebe00cf2e04b04297540d4ec643c9c5b"></a>
-std::shared_ptr&lt; <a class="el" href="classZiApi_1_1Network.html">ZiApi::Network</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_networkMgr</b></td></tr>
-<tr class="separator:aebe00cf2e04b04297540d4ec643c9c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc36290d5a37be55fc1334d052d66e57"><td class="memItemLeft" align="right" valign="top"><a id="afc36290d5a37be55fc1334d052d66e57"></a>
-std::shared_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ZiApi::ModuleManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_moduleMgr</b></td></tr>
-<tr class="separator:afc36290d5a37be55fc1334d052d66e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440a6f2e1efdc0cd9a8b99fa0b285b6f"><td class="memItemLeft" align="right" valign="top"><a id="a440a6f2e1efdc0cd9a8b99fa0b285b6f"></a>
+std::unique_ptr&lt; <a class="el" href="classZiApi_1_1Config.html">ZiApi::Config</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_config</b></td></tr>
+<tr class="separator:a440a6f2e1efdc0cd9a8b99fa0b285b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349bb7c8f82ff016a544846f8ee6bbd9"><td class="memItemLeft" align="right" valign="top"><a id="a349bb7c8f82ff016a544846f8ee6bbd9"></a>
+std::unique_ptr&lt; <a class="el" href="classZiApi_1_1Network.html">ZiApi::Network</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_networkMgr</b></td></tr>
+<tr class="separator:a349bb7c8f82ff016a544846f8ee6bbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac5a663c846b87c1eb84017440c7792"><td class="memItemLeft" align="right" valign="top"><a id="acac5a663c846b87c1eb84017440c7792"></a>
+std::unique_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ZiApi::ModuleManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_moduleMgr</b></td></tr>
+<tr class="separator:acac5a663c846b87c1eb84017440c7792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Server's core. </p>
 <dl class="section note"><dt>Note</dt><dd>The <a class="el" href="classZiApi_1_1Core.html" title="Server&#39;s core.">Core</a> will automatly binds the <a class="el" href="classZiApi_1_1Network.html" title="Server&#39;s sockets handler.">Network</a> and the <a class="el" href="classZiApi_1_1ModuleManager.html" title="Server&#39;s module manager.">ModuleManager</a></dd></dl>
-<p>Usage example : </p><div class="fragment"><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// Created by nhyarlathotep on 31/01/19.</span></div><div class="line"><span class="comment">//</span></div><div class="line"></div><div class="line"><span class="preprocessor">#pragma once</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &quot;Core.hpp&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;MyConfig.hpp&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;MyNetwork.hpp&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;MyModuleManager.hpp&quot;</span></div><div class="line"></div><div class="line"><span class="keyword">class </span>MyCore : <span class="keyword">public</span> <a class="code" href="classZiApi_1_1Core.html">ZiApi::Core</a> {</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    MyCore() : Core(std::make_shared&lt;MyConfig&gt;(), std::make_shared&lt;MyNetwork&gt;(), std::make_shared&lt;MyModuleMgr&gt;()) {</div><div class="line">        <span class="comment">/* It&#39;s up to you */</span></div><div class="line">        _moduleMgr-&gt;load(<span class="stringliteral">&quot;./Path&quot;</span>, *<span class="keyword">this</span>);          <span class="comment">//Load a Module</span></div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="keywordtype">void</span> run(<span class="keywordtype">int</span> ac, <span class="keywordtype">char</span> **av)<span class="keyword"> override </span>{</div><div class="line">        <span class="comment">/* It&#39;s up to you */</span></div><div class="line">        _networkMgr-&gt;run();                         <span class="comment">//Launchs the sockets</span></div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="keyword">const</span> std::shared_ptr&lt;ZiApi::Config&gt; &amp;getConfig()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> _config; }</div><div class="line"></div><div class="line">    std::shared_ptr&lt;ZiApi::ModuleManager&gt; &amp;getModuleMgr()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> _moduleMgr; }</div><div class="line">};</div></div><!-- fragment --> <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="MyServer_8cpp-example.html#_a8">MyServer.cpp</a>.</dd>
+<p>Usage example : </p><div class="fragment"><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// Created by nhyarlathotep on 31/01/19.</span></div><div class="line"><span class="comment">//</span></div><div class="line"></div><div class="line"><span class="preprocessor">#pragma once</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &quot;Core.hpp&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;MyConfig.hpp&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;MyNetwork.hpp&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;MyModuleManager.hpp&quot;</span></div><div class="line"></div><div class="line"><span class="keyword">class </span>MyCore : <span class="keyword">public</span> <a class="code" href="classZiApi_1_1Core.html">ZiApi::Core</a> {</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    MyCore() : Core(std::make_unique&lt;MyConfig&gt;(), std::make_unique&lt;MyNetwork&gt;(), std::make_unique&lt;MyModuleMgr&gt;()) {</div><div class="line">        <span class="comment">/* It&#39;s up to you */</span></div><div class="line">        _moduleMgr-&gt;load(<span class="stringliteral">&quot;./Path&quot;</span>, *<span class="keyword">this</span>);          <span class="comment">//Load a Module</span></div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="keywordtype">void</span> run(<span class="keywordtype">int</span> ac, <span class="keywordtype">char</span> **av)<span class="keyword"> override </span>{</div><div class="line">        <span class="comment">/* It&#39;s up to you */</span></div><div class="line">        _networkMgr-&gt;run();                         <span class="comment">//Launchs the sockets</span></div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="keyword">const</span> std::unique_ptr&lt;ZiApi::Config&gt; &amp;getConfig()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> _config; }</div><div class="line"></div><div class="line">    std::unique_ptr&lt;ZiApi::ModuleManager&gt; &amp;getModuleMgr()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> _moduleMgr; }</div><div class="line">};</div></div><!-- fragment --> <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="MyServer_8cpp-example.html#_a8">MyServer.cpp</a>.</dd>
 </dl>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="Core_8hpp_source.html">Core.hpp</a></li>
@@ -126,7 +126,7 @@ std::shared_ptr&lt; <a class="el" href="classZiApi_1_1ModuleManager.html">ZiApi:
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 6 2019 00:52:47 for ZiApi by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 6 2019 17:51:56 for ZiApi by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
